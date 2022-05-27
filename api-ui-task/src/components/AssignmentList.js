@@ -3,6 +3,8 @@ const AssignmentList = () => {
   return (
     <div className="list">
       <AssignmentCard />
+      <AssignmentCard />
+      <AssignmentCard />
     </div>
   );
 };

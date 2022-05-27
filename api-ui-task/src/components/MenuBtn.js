@@ -1,8 +1,11 @@
-import Vector from "./Vector";
 const MenuBtn = () => {
   return (
     <div className="menuBtn">
-      <Vector />
+      <div className="menuVector">
+        <div className="menuVectorLines"></div>
+        <div className="menuVectorLines"></div>
+        <div className="menuVectorLines"></div>
+      </div>
     </div>
   );
 };

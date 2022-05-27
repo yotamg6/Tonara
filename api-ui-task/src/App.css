@@ -51,12 +51,17 @@
 
 .addBtn {
   position: absolute;
-  width: 3rem;
+  /* width: 3rem;
   height: 3rem;
   left: 19.8125rem;
-  top: 5.75rem;
+  top: 5.75rem; */
+  width: 48px;
+  height: 48px;
+  left: 317px;
+  top: 92px;
   background: #ffffff;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  border: 1px solid #ffffff;
   border-radius: 80px;
 }
 
@@ -74,60 +79,64 @@
 .line1 {
   /* width: 32px; */
   width: 0px;
-  height: 32px;
+  height: 28px;
   position: absolute;
   left: 45.83%;
   /* margin-top: 14px; */
   /* left: 40%; */
   right: -12.5%;
   /* top: 16.67%; */
-  top: 8%;
+  top: 16%;
   /* bottom: 83.33%; */
   border: 2px solid #000000;
+  border-radius: 4px;
   /* transform: rotate(90deg); */
 }
 
 .line2 {
-  width: 32px;
+  width: 28px;
   height: 0;
   position: absolute;
   /* left: 83.33%; */
-  left: 10%;
+  left: 16%;
   /* right: -50%; */
-  top: 45.83%;
+  top: 45.5%;
   /* top: 40%; */
   /* bottom: 54.17%; */
 
   border: 2px solid #000000;
+  border-radius: 4px;
   transform: rotate(180deg);
 }
 
 .teacherImage {
   position: absolute;
+
   box-sizing: border-box;
-  width: 80px;
-  height: 80px;
+  width: 84px;
+  height: 84px;
   left: 20px;
   top: 60px;
+
   /* width: 5rem;
   height: 5rem;
   left: 1.25rem;
   top: 3.75rem; */
-  /* background: url(.png); */
   border: 2px solid #ffffff;
+  background: url("Teacher\ Image.png");
   border-radius: 70px;
 }
 
 .topCover {
-  position: absolute;
+  /* position: absolute; */
   width: 375px;
   height: 100px;
   /* width: 23.4375rem;
   height: 6.25rem; */
   left: 0;
   top: 0;
-  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(.png); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("Frame\ 145319.png");
 }
 
 .menuBtn {
@@ -140,17 +149,42 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.32));
 }
 
-.vector {
+.menuVector {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 24px;
+  width: 28px;
+  left: 10px;
+  top: 12px;
+  border-radius: 2px;
+
   position: absolute;
   left: 20.83%;
   right: 20.83%;
   top: 25%;
   bottom: 25%;
 
-  background: #ffffff;
+  /* background: #888282; */
+  background: transparent;
+
   border-radius: 2px;
 }
 
+.menuVectorLines {
+  width: 28px;
+  height: 3px;
+
+  /* left: 83.33%; */
+  /* left: 10%; */
+  /* right: -50%; */
+  /* top: 45.5%; */
+  /* top: 40%; */
+  /* bottom: 54.17%; */
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background: white;
+}
 .searchBar {
   position: absolute;
   box-sizing: border-box;
@@ -207,16 +241,16 @@
   left: 2px;
   /* top: 2px; */
   border-radius: 10px;
-  border: 1px solid #333333;
+  border: 2px solid #333333;
 }
 .searchStickVector {
-  height: 1.287285804748535px;
-  width: 5px;
+  height: 2.287285804748535px;
+  width: 8.5px;
   /* left: 15.7127685546875px; */
   left: 0px;
-  top: 2px;
+  top: 3px;
   border-radius: 0px;
-  transform: rotate(236deg);
+  transform: rotate(230deg);
 }
 
 .positionAbso {
@@ -230,15 +264,16 @@
   position: absolute;
   width: 50px;
   height: 20px;
-  left: 39px;
+  left: 40px;
   /* left: 36px; */
 
   top: 10px;
   /* running text */
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 14px;
+
   line-height: 140%;
   /* identical to box height, or 20px */
   text-align: center;
@@ -251,7 +286,7 @@
   width: 335px;
   height: 491px;
   left: 20px;
-  top: 228px;
+  top: 212px;
 }
 
 .card {
@@ -260,10 +295,282 @@
   height: 153px;
   left: 20px;
   top: 228px;
+  margin: 16px 1.375px 16px 1.25px;
 
   background: #ffffff;
   /* soft shadow */
 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+
+/* Group 145326 */
+/* position: absolute;
+width: 247px;
+height: 50px;
+left: 72px;
+top: 13px; */
+/* //skeeping parent group 145326 */
+
+.titlesGroup145234 {
+  position: absolute;
+  width: 247px;
+  height: 50px;
+  left: 72px;
+  top: 13px;
+}
+
+.title1 {
+  position: absolute;
+  width: 247px;
+  height: 27px;
+  left: 72px;
+  top: 13px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-transform: capitalize;
+
+  /* Gray 1 */
+  color: #333333;
+}
+
+.subTitle1 {
+  /* Blues */
+
+  position: absolute;
+  width: 247px;
+  height: 20px;
+  left: 72px;
+  top: 43px;
+
+  /* running text */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  /* Gray 3 */
+  color: #828282;
+}
+
+.rythemIcon {
+  /* icon/ ass/ rythem */
+
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 16px;
+  top: 15px;
+
+  /* Blue/ Primary */
+  background: #3887fd;
+  border-radius: 4px;
+
+  /* Group */
+
+  position: absolute;
+  left: 26.67%;
+  right: 24.44%;
+  top: 24.44%;
+  bottom: 22.22%;
+
+  /* Vector */
+
+  position: absolute;
+  left: 29.48%;
+  right: 24.44%;
+  top: 24.44%;
+  bottom: 38.74%;
+
+  background: #ffffff;
+
+  /* Vector */
+
+  position: absolute;
+  left: 55.22%;
+  right: 34.63%;
+  top: 51.95%;
+  bottom: 38.74%;
+
+  background: #ffffff;
+
+  /* Vector */
+
+  position: absolute;
+  left: 26.67%;
+  right: 31.82%;
+  top: 64.39%;
+  bottom: 22.22%;
+
+  background: #ffffff;
+}
+
+.instructionGroup145345 {
+  /* Group 145345 */
+
+  position: absolute;
+  width: 303px;
+  height: 24px;
+  left: 16px;
+  top: 81px;
+}
+
+.innerInstGroup145325 {
+  position: absolute;
+  width: 188px;
+  height: 20px;
+  left: 16px;
+  top: 83px;
+}
+.instructions {
+  /* 4 days / 6 minutes per day */
+
+  position: absolute;
+  width: 188px;
+  height: 20px;
+  left: 16px;
+  top: 83px;
+
+  /* running text */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+
+  /* Gray 1 */
+  color: #333333;
+}
+
+.iconGroupAssignment {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 295px;
+  top: 81px;
+}
+
+.ellipse97 {
+  position: absolute;
+  left: 56.25%;
+  right: 25%;
+  top: 35%;
+  bottom: 46.25%;
+
+  background: #f2f2f2;
+}
+*/
+
+
+
+/* Vector  - empty leaving out */
+/* position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%; */
+
+.iconVector {
+  position: absolute;
+  left: 8.29%;
+  right: 8.37%;
+  top: 8.33%;
+  bottom: 8.33%;
+
+  /* Orange/ primary */
+  background: #fa8d0d;
+}
+
+.progressGroup145346 {
+  position: absolute;
+  width: 303px;
+  height: 20px;
+  left: 16px;
+  top: 117px;
+}
+
+.progressText {
+  /* 84% */
+
+  position: absolute;
+  width: 29px;
+  height: 20px;
+  left: 290px;
+  top: 117px;
+
+  /* running text */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-align: right;
+
+  /* Gray 1 */
+  color: #333333;
+}
+
+/* skeeping Group 145242 
+
+position: absolute;
+width: 254px;
+height: 6px;
+left: 16px;
+top: 126px;
+*/
+
+.progBarGroup145240 {
+  position: absolute;
+  width: 254px;
+  height: 6px;
+  left: 16px;
+  top: 126px;
+}
+.progRectangle26 {
+  position: absolute;
+  width: 6px;
+  height: 190.72px;
+  left: 206.72px;
+  top: 126px;
+
+  /* Green/ Primary */
+  background: #39e380;
+  transform: rotate(90deg);
+}
+
+/* skeeping Group 145206 */
+/* position: absolute;
+width: 254px;
+height: 6px;
+left: 16px;
+top: 126px; */
+
+.fullProgBarGroup145204 {
+  position: absolute;
+  width: 254px;
+  height: 6px;
+  left: 16px;
+  top: 126px;
+}
+
+.fullProgRectangle25 {
+  position: absolute;
+  width: 6px;
+  height: 254px;
+  left: 270px;
+  top: 126px;
+
+  /* Green/ Secondary */
+  background: #d7f9e6;
+  border-radius: 10px;
+  transform: rotate(90deg);
 }

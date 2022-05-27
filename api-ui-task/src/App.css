@@ -1,0 +1,269 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.coursePage {
+  position: absolute;
+  /* width: 23.5625rem;
+  height: 4.75rem; */
+  width: 377px;
+  height: 760px;
+  left: 0;
+  top: 0;
+  overflow-y: scroll;
+  background: #f3f6fa;
+}
+
+.addBtn {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 19.8125rem;
+  top: 5.75rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 80px;
+}
+
+.union {
+  /* position: absolute; */
+  width: 32px;
+  height: 32px;
+  left: 8px;
+  top: 8px;
+  /* border: 4px solid #000000; */
+
+  /* background: #000000; */
+}
+
+.line1 {
+  /* width: 32px; */
+  width: 0px;
+  height: 32px;
+  position: absolute;
+  left: 45.83%;
+  /* margin-top: 14px; */
+  /* left: 40%; */
+  right: -12.5%;
+  /* top: 16.67%; */
+  top: 8%;
+  /* bottom: 83.33%; */
+  border: 2px solid #000000;
+  /* transform: rotate(90deg); */
+}
+
+.line2 {
+  width: 32px;
+  height: 0;
+  position: absolute;
+  /* left: 83.33%; */
+  left: 10%;
+  /* right: -50%; */
+  top: 45.83%;
+  /* top: 40%; */
+  /* bottom: 54.17%; */
+
+  border: 2px solid #000000;
+  transform: rotate(180deg);
+}
+
+.teacherImage {
+  position: absolute;
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  left: 20px;
+  top: 60px;
+  /* width: 5rem;
+  height: 5rem;
+  left: 1.25rem;
+  top: 3.75rem; */
+  /* background: url(.png); */
+  border: 2px solid #ffffff;
+  border-radius: 70px;
+}
+
+.topCover {
+  position: absolute;
+  width: 375px;
+  height: 100px;
+  /* width: 23.4375rem;
+  height: 6.25rem; */
+  left: 0;
+  top: 0;
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(.png); */
+}
+
+.menuBtn {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 317px;
+  top: 10px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.32));
+}
+
+.vector {
+  position: absolute;
+  left: 20.83%;
+  right: 20.83%;
+  top: 25%;
+  bottom: 25%;
+
+  background: #ffffff;
+  border-radius: 2px;
+}
+
+.searchBar {
+  position: absolute;
+  box-sizing: border-box;
+  /* width: 20.9375rem; */
+  /* height: 2.5rem; */
+  /* left: 1.25rem; */
+  /* top: 10.25rem; */
+  width: 335px;
+  height: 40px;
+  left: 20px;
+  top: 164px;
+  overflow-x: scroll;
+
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 46px;
+}
+
+.iconSearch {
+  /* position: absolute; */
+  width: 24px;
+  height: 24px;
+  left: 11px;
+  top: 8px;
+}
+
+.group145115 {
+  /* position: absolute; */
+  width: 20px;
+  height: 20px;
+  left: 2px;
+  top: 0px;
+}
+
+.firstSubGroups145115 {
+  /* position: absolute; */
+  left: 45.47%;
+  right: 8.33%;
+  top: 45.47%;
+  bottom: 8.33%;
+}
+
+.secSubGroups145115 {
+  /* position: absolute; */
+  left: 16.33%;
+  right: 18.27%;
+  top: 10.33%;
+  /* bottom: 18.27%; */
+}
+
+.circleVector {
+  height: 13.61515235900879px;
+  width: 13.61515235900879px;
+  left: 2px;
+  /* top: 2px; */
+  border-radius: 10px;
+  border: 1px solid #333333;
+}
+.searchStickVector {
+  height: 1.287285804748535px;
+  width: 5px;
+  /* left: 15.7127685546875px; */
+  left: 0px;
+  top: 2px;
+  border-radius: 0px;
+  transform: rotate(236deg);
+}
+
+.positionAbso {
+  position: absolute;
+}
+
+.gray1 {
+  background: #333333;
+}
+.searchText {
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 39px;
+  /* left: 36px; */
+
+  top: 10px;
+  /* running text */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  /* identical to box height, or 20px */
+  text-align: center;
+  /* Gray 1 */
+  color: #333333;
+}
+
+.list {
+  position: absolute;
+  width: 335px;
+  height: 491px;
+  left: 20px;
+  top: 228px;
+}
+
+.card {
+  /* position: absolute; */
+  width: 335px;
+  height: 153px;
+  left: 20px;
+  top: 228px;
+
+  background: #ffffff;
+  /* soft shadow */
+
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}

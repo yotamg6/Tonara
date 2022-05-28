@@ -2,30 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -37,12 +17,17 @@
   }
 }
 
+.container {
+  position: relative;
+  transform: scaleY(0.87763);
+}
 .coursePage {
   position: absolute;
   /* width: 23.5625rem;
   height: 4.75rem; */
-  width: 377px;
+  width: 375px;
   height: 760px;
+  /* height: 667px; */
   left: 0;
   top: 0;
   overflow-y: scroll;
@@ -63,6 +48,7 @@
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
   border: 1px solid #ffffff;
   border-radius: 80px;
+  /* transform: scale(0.87763, 0.9947); */
 }
 
 .union {
@@ -125,6 +111,7 @@
   border: 2px solid #ffffff;
   background: url("Teacher\ Image.png");
   border-radius: 70px;
+  /* transform: scale(0.87763, 0.9947); */
 }
 
 .topCover {
@@ -137,6 +124,7 @@
   top: 0;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("Frame\ 145319.png");
+  /* transform: scale(0.87763, 0.9947); */
 }
 
 .menuBtn {
@@ -188,10 +176,7 @@
 .searchBar {
   position: absolute;
   box-sizing: border-box;
-  /* width: 20.9375rem; */
-  /* height: 2.5rem; */
-  /* left: 1.25rem; */
-  /* top: 10.25rem; */
+
   width: 335px;
   height: 40px;
   left: 20px;
@@ -201,6 +186,7 @@
   background: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 46px;
+  /* transform: scale(0.87763, 0.9947); */
 }
 
 .iconSearch {
@@ -283,18 +269,26 @@
 
 .list {
   position: absolute;
+
   width: 335px;
   height: 491px;
+  /* height: 430.916px;///scaling manually */
   left: 20px;
-  top: 212px;
+  top: 228px;
+  /* top: 212px; */
+  /* top: 186.057px;///manually scaled from 212 */
+  /* transform: scale(0.87763, 0.9947); */
 }
 
 .card {
-  /* position: absolute; */
+  /* display: grid; */
   width: 335px;
   height: 153px;
+  /* height: 134.277px;//scaling manually */
   left: 20px;
-  top: 228px;
+  top: 566px;
+  /* top: 228px; */
+  /* top: 200px;//manually scaled from 228 */
   margin: 16px 1.375px 16px 1.25px;
 
   background: #ffffff;
@@ -302,6 +296,9 @@
 
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  /* transform: scale(0.12.237); */
+  /* transform: scale(0.12.237, 0.53); */
+  /* transform: scale(0.87763, 0.9947); */
 }
 
 /* Group 145326 */
@@ -311,28 +308,29 @@ height: 50px;
 left: 72px;
 top: 13px; */
 /* //skeeping parent group 145326 */
-
+.topContainer {
+  position: relative;
+  /* display: flex; */
+}
 .titlesGroup145234 {
   position: absolute;
   width: 247px;
-  height: 50px;
+  height: 69.656px;
   left: 72px;
+  /* left: 11px; */
   top: 13px;
 }
 
 .title1 {
-  position: absolute;
   width: 247px;
-  height: 27px;
-  left: 72px;
-  top: 13px;
-
+  /* height: 27px; */
   font-family: "Poppins";
   font-style: normal;
+  text-align: start;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
+
   text-transform: capitalize;
 
   /* Gray 1 */
@@ -342,15 +340,16 @@ top: 13px; */
 .subTitle1 {
   /* Blues */
 
-  position: absolute;
+  /* position: absolute; */
   width: 247px;
-  height: 20px;
+  /* height: 20px; */
   left: 72px;
   top: 43px;
 
   /* running text */
   font-family: "Poppins";
   font-style: normal;
+  text-align: start;
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
@@ -368,75 +367,44 @@ top: 13px; */
   height: 45px;
   left: 16px;
   top: 15px;
-
-  /* Blue/ Primary */
-  background: #3887fd;
-  border-radius: 4px;
-
-  /* Group */
-
-  position: absolute;
-  left: 26.67%;
-  right: 24.44%;
-  top: 24.44%;
-  bottom: 22.22%;
-
-  /* Vector */
-
-  position: absolute;
-  left: 29.48%;
-  right: 24.44%;
-  top: 24.44%;
-  bottom: 38.74%;
-
-  background: #ffffff;
-
-  /* Vector */
-
-  position: absolute;
-  left: 55.22%;
-  right: 34.63%;
-  top: 51.95%;
-  bottom: 38.74%;
-
-  background: #ffffff;
-
-  /* Vector */
-
-  position: absolute;
-  left: 26.67%;
-  right: 31.82%;
-  top: 64.39%;
-  bottom: 22.22%;
-
-  background: #ffffff;
 }
 
 .instructionGroup145345 {
   /* Group 145345 */
 
   position: absolute;
+  display: flex;
+  justify-content: space-between;
   width: 303px;
   height: 24px;
   left: 16px;
   top: 81px;
 }
 
-.innerInstGroup145325 {
-  position: absolute;
+/* skiping parent group */
+/* .innerInstGroup145325 {
+  /* position: absolute; */
+/* display: flex;
+  justify-content: space-around;
   width: 188px;
   height: 20px;
   left: 16px;
   top: 83px;
-}
-.instructions {
+} */
+.textInstructions {
   /* 4 days / 6 minutes per day */
 
-  position: absolute;
-  width: 188px;
-  height: 20px;
-  left: 16px;
-  top: 83px;
+  /* position: absolute; */
+  /* width: 188px; */
+  /* width: 94.28%; */
+  /* width: 177.2464px; */
+  /* height: 20px; */
+  /* height: 1.25rem; */
+  /* left: 16px; */
+
+  /* left: 1rem; */
+
+  /* top: 83px; */
 
   /* running text */
   font-family: "Poppins";
@@ -449,16 +417,20 @@ top: 13px; */
   /* Gray 1 */
   color: #333333;
 }
+/* ///////////can be erased: */
+/* .iconGroupAssignment { */
+/* position: absolute; */
+/* width: 24px; */
+/* width: 5.72%; */
+/* width: 10.7536px; */
+/* width: 1.7536px;
 
-.iconGroupAssignment {
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  left: 295px;
-  top: 81px;
-}
+  height: 24px; */
+/* left: 295px; */
+/* top: 81px; */
+/* } */
 
-.ellipse97 {
+/* .ellipse97 {
   position: absolute;
   left: 56.25%;
   right: 25%;
@@ -466,10 +438,7 @@ top: 13px; */
   bottom: 46.25%;
 
   background: #f2f2f2;
-}
-*/
-
-
+} */
 
 /* Vector  - empty leaving out */
 /* position: absolute;
@@ -478,7 +447,7 @@ right: 0%;
 top: 0%;
 bottom: 0%; */
 
-.iconVector {
+/* .iconVector {
   position: absolute;
   left: 8.29%;
   right: 8.37%;
@@ -486,8 +455,8 @@ bottom: 0%; */
   bottom: 8.33%;
 
   /* Orange/ primary */
-  background: #fa8d0d;
-}
+/* background: #fa8d0d; */
+/* } */
 
 .progressGroup145346 {
   position: absolute;
@@ -497,27 +466,27 @@ bottom: 0%; */
   top: 117px;
 }
 
-.progressText {
-  /* 84% */
+/* .progressText { */
+/* 84% */
 
-  position: absolute;
+/* position: absolute;
   width: 29px;
   height: 20px;
   left: 290px;
-  top: 117px;
+  top: 117px; */
 
-  /* running text */
-  font-family: "Poppins";
+/* running text */
+/* font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 140%;
-  /* identical to box height, or 20px */
-  text-align: right;
+  line-height: 140%; */
+/* identical to box height, or 20px */
+/* text-align: right; */
 
-  /* Gray 1 */
-  color: #333333;
-}
+/* Gray 1 */
+/* color: #333333; */
+/* } */
 
 /* skeeping Group 145242 
 
@@ -528,7 +497,7 @@ left: 16px;
 top: 126px;
 */
 
-.progBarGroup145240 {
+/* .progBarGroup145240 {
   position: absolute;
   width: 254px;
   height: 6px;
@@ -543,9 +512,9 @@ top: 126px;
   top: 126px;
 
   /* Green/ Primary */
-  background: #39e380;
-  transform: rotate(90deg);
-}
+/* background: #39e380;
+  transform: rotate(90deg); */
+/* } */
 
 /* skeeping Group 145206 */
 /* position: absolute;
@@ -554,7 +523,7 @@ height: 6px;
 left: 16px;
 top: 126px; */
 
-.fullProgBarGroup145204 {
+/* .fullProgBarGroup145204 {
   position: absolute;
   width: 254px;
   height: 6px;
@@ -570,7 +539,7 @@ top: 126px; */
   top: 126px;
 
   /* Green/ Secondary */
-  background: #d7f9e6;
+/* background: #d7f9e6;
   border-radius: 10px;
-  transform: rotate(90deg);
-}
+  transform: rotate(90deg); */
+/* } */

@@ -5,13 +5,15 @@ import AddBtn from "./AddBtn";
 
 const CoursePage = () => {
   return (
-    <div className="coursePage">
-      <AddBtn />
-      {/* <button className="addPageButton">+</button> */}
-      <img className="teacherImage"></img>
-      <TopCover />
-      <SearchBar />
-      <AssignmentList />
+    <div className="container">
+      <div className="coursePage">
+        <AddBtn />
+        {/* <button className="addPageButton">+</button> */}
+        <img className="teacherImage"></img>
+        <TopCover />
+        <SearchBar />
+        <AssignmentList />
+      </div>
     </div>
   );
 };

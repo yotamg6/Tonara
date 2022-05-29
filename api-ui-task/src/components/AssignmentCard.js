@@ -8,7 +8,7 @@ const AssignmentCard = () => {
   return (
     <>
       <div className="card">
-        <div className="topContainer">
+        <div className="topCardContainer">
           <img className="rythemIcon" src={rythemLogo}></img>
           <div className="titlesGroup145234">
             <div className="title1">Pentatonic in A</div>

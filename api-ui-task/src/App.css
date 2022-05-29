@@ -23,11 +23,10 @@
 }
 .coursePage {
   position: absolute;
-  /* width: 23.5625rem;
-  height: 4.75rem; */
+
   width: 375px;
   height: 760px;
-  /* height: 667px; */
+
   left: 0;
   top: 0;
   overflow-y: scroll;
@@ -36,10 +35,6 @@
 
 .addBtn {
   position: absolute;
-  /* width: 3rem;
-  height: 3rem;
-  left: 19.8125rem;
-  top: 5.75rem; */
   width: 48px;
   height: 48px;
   left: 317px;
@@ -48,48 +43,33 @@
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
   border: 1px solid #ffffff;
   border-radius: 80px;
-  /* transform: scale(0.87763, 0.9947); */
+  cursor: pointer;
 }
 
 .union {
-  /* position: absolute; */
   width: 32px;
   height: 32px;
   left: 8px;
   top: 8px;
-  /* border: 4px solid #000000; */
-
-  /* background: #000000; */
 }
 
 .line1 {
-  /* width: 32px; */
   width: 0px;
   height: 28px;
   position: absolute;
   left: 45.83%;
-  /* margin-top: 14px; */
-  /* left: 40%; */
   right: -12.5%;
-  /* top: 16.67%; */
   top: 16%;
-  /* bottom: 83.33%; */
   border: 2px solid #000000;
   border-radius: 4px;
-  /* transform: rotate(90deg); */
 }
 
 .line2 {
   width: 28px;
   height: 0;
   position: absolute;
-  /* left: 83.33%; */
   left: 16%;
-  /* right: -50%; */
   top: 45.5%;
-  /* top: 40%; */
-  /* bottom: 54.17%; */
-
   border: 2px solid #000000;
   border-radius: 4px;
   transform: rotate(180deg);
@@ -97,34 +77,23 @@
 
 .teacherImage {
   position: absolute;
-
   box-sizing: border-box;
   width: 84px;
   height: 84px;
   left: 20px;
   top: 60px;
-
-  /* width: 5rem;
-  height: 5rem;
-  left: 1.25rem;
-  top: 3.75rem; */
   border: 2px solid #ffffff;
   background: url("Teacher\ Image.png");
   border-radius: 70px;
-  /* transform: scale(0.87763, 0.9947); */
 }
 
 .topCover {
-  /* position: absolute; */
   width: 375px;
   height: 100px;
-  /* width: 23.4375rem;
-  height: 6.25rem; */
   left: 0;
   top: 0;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("Frame\ 145319.png");
-  /* transform: scale(0.87763, 0.9947); */
 }
 
 .menuBtn {
@@ -133,7 +102,6 @@
   height: 48px;
   left: 317px;
   top: 10px;
-
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.32));
 }
 
@@ -146,29 +114,18 @@
   left: 10px;
   top: 12px;
   border-radius: 2px;
-
   position: absolute;
   left: 20.83%;
   right: 20.83%;
   top: 25%;
   bottom: 25%;
-
-  /* background: #888282; */
   background: transparent;
-
   border-radius: 2px;
 }
 
 .menuVectorLines {
   width: 28px;
   height: 3px;
-
-  /* left: 83.33%; */
-  /* left: 10%; */
-  /* right: -50%; */
-  /* top: 45.5%; */
-  /* top: 40%; */
-  /* bottom: 54.17%; */
   border: 1px solid #000000;
   border-radius: 4px;
   background: white;
@@ -176,21 +133,17 @@
 .searchBar {
   position: absolute;
   box-sizing: border-box;
-
   width: 335px;
   height: 40px;
   left: 20px;
   top: 164px;
   overflow-x: scroll;
-
   background: #ffffff;
   border: 1px solid #e0e0e0;
   border-radius: 46px;
-  /* transform: scale(0.87763, 0.9947); */
 }
 
 .iconSearch {
-  /* position: absolute; */
   width: 24px;
   height: 24px;
   left: 11px;
@@ -198,7 +151,6 @@
 }
 
 .group145115 {
-  /* position: absolute; */
   width: 20px;
   height: 20px;
   left: 2px;
@@ -206,7 +158,6 @@
 }
 
 .firstSubGroups145115 {
-  /* position: absolute; */
   left: 45.47%;
   right: 8.33%;
   top: 45.47%;
@@ -214,25 +165,21 @@
 }
 
 .secSubGroups145115 {
-  /* position: absolute; */
   left: 16.33%;
   right: 18.27%;
   top: 10.33%;
-  /* bottom: 18.27%; */
 }
 
 .circleVector {
   height: 13.61515235900879px;
   width: 13.61515235900879px;
   left: 2px;
-  /* top: 2px; */
   border-radius: 10px;
   border: 2px solid #333333;
 }
 .searchStickVector {
   height: 2.287285804748535px;
   width: 8.5px;
-  /* left: 15.7127685546875px; */
   left: 0px;
   top: 3px;
   border-radius: 0px;
@@ -251,19 +198,13 @@
   width: 50px;
   height: 20px;
   left: 40px;
-  /* left: 36px; */
-
   top: 10px;
-  /* running text */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
-
   line-height: 140%;
-  /* identical to box height, or 20px */
   text-align: center;
-  /* Gray 1 */
   color: #333333;
 }
 
@@ -272,96 +213,58 @@
 
   width: 335px;
   height: 491px;
-  /* height: 430.916px;///scaling manually */
   left: 20px;
   top: 228px;
-  /* top: 212px; */
-  /* top: 186.057px;///manually scaled from 212 */
-  /* transform: scale(0.87763, 0.9947); */
 }
 
 .card {
-  /* display: grid; */
   width: 335px;
   height: 153px;
-  /* height: 134.277px;//scaling manually */
   left: 20px;
   top: 566px;
-  /* top: 228px; */
-  /* top: 200px;//manually scaled from 228 */
   margin: 16px 1.375px 16px 1.25px;
-
   background: #ffffff;
-  /* soft shadow */
-
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  /* transform: scale(0.12.237); */
-  /* transform: scale(0.12.237, 0.53); */
-  /* transform: scale(0.87763, 0.9947); */
 }
 
-/* Group 145326 */
-/* position: absolute;
-width: 247px;
-height: 50px;
-left: 72px;
-top: 13px; */
-/* //skeeping parent group 145326 */
-.topContainer {
+.topCardContainer {
   position: relative;
-  /* display: flex; */
 }
 .titlesGroup145234 {
   position: absolute;
   width: 247px;
   height: 69.656px;
   left: 72px;
-  /* left: 11px; */
   top: 13px;
 }
 
 .title1 {
   width: 247px;
-  /* height: 27px; */
   font-family: "Poppins";
   font-style: normal;
   text-align: start;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-
   text-transform: capitalize;
-
-  /* Gray 1 */
   color: #333333;
 }
 
 .subTitle1 {
-  /* Blues */
-
-  /* position: absolute; */
   width: 247px;
-  /* height: 20px; */
   left: 72px;
   top: 43px;
-
-  /* running text */
   font-family: "Poppins";
   font-style: normal;
   text-align: start;
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
-  /* identical to box height, or 20px */
-
-  /* Gray 3 */
   color: #828282;
 }
 
 .rythemIcon {
-  /* icon/ ass/ rythem */
-
   position: absolute;
   width: 45px;
   height: 45px;
@@ -370,8 +273,6 @@ top: 13px; */
 }
 
 .instructionGroup145345 {
-  /* Group 145345 */
-
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -380,166 +281,11 @@ top: 13px; */
   left: 16px;
   top: 81px;
 }
-
-/* skiping parent group */
-/* .innerInstGroup145325 {
-  /* position: absolute; */
-/* display: flex;
-  justify-content: space-around;
-  width: 188px;
-  height: 20px;
-  left: 16px;
-  top: 83px;
-} */
 .textInstructions {
-  /* 4 days / 6 minutes per day */
-
-  /* position: absolute; */
-  /* width: 188px; */
-  /* width: 94.28%; */
-  /* width: 177.2464px; */
-  /* height: 20px; */
-  /* height: 1.25rem; */
-  /* left: 16px; */
-
-  /* left: 1rem; */
-
-  /* top: 83px; */
-
-  /* running text */
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
-  /* identical to box height, or 20px */
-
-  /* Gray 1 */
   color: #333333;
 }
-/* ///////////can be erased: */
-/* .iconGroupAssignment { */
-/* position: absolute; */
-/* width: 24px; */
-/* width: 5.72%; */
-/* width: 10.7536px; */
-/* width: 1.7536px;
-
-  height: 24px; */
-/* left: 295px; */
-/* top: 81px; */
-/* } */
-
-/* .ellipse97 {
-  position: absolute;
-  left: 56.25%;
-  right: 25%;
-  top: 35%;
-  bottom: 46.25%;
-
-  background: #f2f2f2;
-} */
-
-/* Vector  - empty leaving out */
-/* position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%; */
-
-/* .iconVector {
-  position: absolute;
-  left: 8.29%;
-  right: 8.37%;
-  top: 8.33%;
-  bottom: 8.33%;
-
-  /* Orange/ primary */
-/* background: #fa8d0d; */
-/* } */
-
-.progressGroup145346 {
-  position: absolute;
-  width: 303px;
-  height: 20px;
-  left: 16px;
-  top: 117px;
-}
-
-/* .progressText { */
-/* 84% */
-
-/* position: absolute;
-  width: 29px;
-  height: 20px;
-  left: 290px;
-  top: 117px; */
-
-/* running text */
-/* font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 140%; */
-/* identical to box height, or 20px */
-/* text-align: right; */
-
-/* Gray 1 */
-/* color: #333333; */
-/* } */
-
-/* skeeping Group 145242 
-
-position: absolute;
-width: 254px;
-height: 6px;
-left: 16px;
-top: 126px;
-*/
-
-/* .progBarGroup145240 {
-  position: absolute;
-  width: 254px;
-  height: 6px;
-  left: 16px;
-  top: 126px;
-}
-.progRectangle26 {
-  position: absolute;
-  width: 6px;
-  height: 190.72px;
-  left: 206.72px;
-  top: 126px;
-
-  /* Green/ Primary */
-/* background: #39e380;
-  transform: rotate(90deg); */
-/* } */
-
-/* skeeping Group 145206 */
-/* position: absolute;
-width: 254px;
-height: 6px;
-left: 16px;
-top: 126px; */
-
-/* .fullProgBarGroup145204 {
-  position: absolute;
-  width: 254px;
-  height: 6px;
-  left: 16px;
-  top: 126px;
-}
-
-.fullProgRectangle25 {
-  position: absolute;
-  width: 6px;
-  height: 254px;
-  left: 270px;
-  top: 126px;
-
-  /* Green/ Secondary */
-/* background: #d7f9e6;
-  border-radius: 10px;
-  transform: rotate(90deg); */
-/* } */

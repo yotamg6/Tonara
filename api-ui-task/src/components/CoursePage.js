@@ -8,7 +8,6 @@ const CoursePage = () => {
     <div className="container">
       <div className="coursePage">
         <AddBtn />
-        {/* <button className="addPageButton">+</button> */}
         <img className="teacherImage"></img>
         <TopCover />
         <SearchBar />

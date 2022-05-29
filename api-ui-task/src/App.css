@@ -201,7 +201,7 @@
   top: 10px;
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 14px;
   line-height: 140%;
   text-align: center;
@@ -241,10 +241,10 @@
 
 .title1 {
   width: 247px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   text-align: start;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 18px;
   line-height: 27px;
   text-transform: capitalize;
@@ -288,4 +288,12 @@
   font-size: 14px;
   line-height: 140%;
   color: #333333;
+}
+
+.progressGroup145346 {
+  position: absolute;
+  width: 303px;
+  height: 20px;
+  left: 16px;
+  top: 117px;
 }

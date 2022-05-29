@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import AssignmentCard from "./AssignmentCard";
+import NewCard from "./NewCard";
 // import { AppContext } from "../App";
 
 const AssignmentList = () => {
   // const { uploadedData } = useContext(AppContext);
-  const [returnedData, setReturnedData] = useState(null);
+  const [returnedData, setReturnedData] = useState([]);
   useEffect(() => {
     // if (uploadedData) {
     const getAllAssignments = async () => {
@@ -28,12 +29,8 @@ const AssignmentList = () => {
       <AssignmentCard />
       <AssignmentCard />
       {returnedData.length
-        ? returnedData.map((assignment) => {
-            return (
-              <div>
-                <div>{assignment.title}</div>
-              </div>
-            );
+        ? returnedData.map((assignment, i) => {
+            return <NewCard assignment={assignment} key={i} />;
           })
         : null}
     </div>

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import AssignmentCard from './AssignmentCard';
-import NewCard from './NewCard';
+import Item from './Item';
 
 const AssignmentList = () => {
   const [returnedData, setReturnedData] = useState([]);
@@ -20,12 +19,13 @@ const AssignmentList = () => {
   }, []);
   return (
     <div className="list">
-      <AssignmentCard />
-      <AssignmentCard />
-      <AssignmentCard />
       {returnedData.length
         ? returnedData.map((assignment, i) => {
-            return <NewCard assignment={assignment} key={i} />;
+            return (
+              <>
+                <Item assignment={assignment} key={i} />
+              </>
+            );
           })
         : null}
     </div>

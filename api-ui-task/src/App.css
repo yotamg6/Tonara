@@ -287,11 +287,40 @@
   line-height: 140%;
   color: #333333;
 }
-
+/* ////////////////////// */
 .progressGroup145346 {
   position: absolute;
   width: 303px;
   height: 20px;
   left: 16px;
   top: 117px;
+}
+
+.innerProgGroup145242 {
+  width: 254px;
+  height: 6px;
+  margin-top: 8px;
+  background: #d7f9e6;
+}
+
+.progRectangle26 {
+  height: 6px;
+  background: #39e380;
+}
+
+.progPercentage {
+  position: absolute;
+  width: 29px;
+  height: 20px;
+  left: 290px;
+  top: 117px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: right;
+
+  color: #333333;
 }

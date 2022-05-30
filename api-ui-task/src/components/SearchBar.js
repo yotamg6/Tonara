@@ -8,9 +8,9 @@ const SearchBar = () => {
               <div className="firstSubGroups145115 positionAbso searchStickVector gray1"></div>
             </div>
           </div>
-          <div className="secSubGroups145115  positionAbso  ">
-            <div className="secSubGroups145115   ">
-              <div className="secSubGroups145115  circleVector "></div>
+          <div className="secSubGroups145115  positionAbso">
+            <div className="secSubGroups145115">
+              <div className="secSubGroups145115  circleVector"></div>
             </div>
           </div>
         </div>

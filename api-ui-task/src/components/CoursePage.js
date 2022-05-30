@@ -1,7 +1,7 @@
-import TopCover from "./TopCover";
-import SearchBar from "./SearchBar";
-import AssignmentList from "./AssignmentList";
-import AddBtn from "./AddBtn";
+import TopCover from './TopCover';
+import SearchBar from './SearchBar';
+import AssignmentList from './AssignmentList';
+import AddBtn from './AddBtn';
 
 const CoursePage = () => {
   return (

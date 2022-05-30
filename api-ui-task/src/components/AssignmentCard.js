@@ -1,8 +1,8 @@
-import rythemLogo from "../media/rythem.png";
+import rythemLogo from '../media/rythem.png';
 
-import groupAssignmentIcon from "../media/groupAssignment.png";
+import groupAssignmentIcon from '../media/groupAssignment.png';
 
-import progressBar from "../media/progressBar.png";
+import progressBar from '../media/progressBar.png';
 
 const AssignmentCard = () => {
   return (

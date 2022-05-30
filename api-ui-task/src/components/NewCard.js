@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography } from "@mui/material";
+import { Card, CardContent, Typography } from '@mui/material';
 
 const NewCard = ({ assignment }) => {
   return (
@@ -6,22 +6,22 @@ const NewCard = ({ assignment }) => {
       <Card className="card">
         <CardContent>
           <Typography sx={{ fontSize: 15 }} component="div">
-            Title:{assignment.title}
+            Title: {assignment.title}
           </Typography>
           <Typography sx={{ fontSize: 15 }} component="div">
-            Description:{assignment.description}
+            Description: {assignment.description}
           </Typography>
           <Typography sx={{ fontSize: 15 }} component="div">
-            Music Genre:{assignment.music_genre}
+            Music Genre: {assignment.music_genre}
           </Typography>
           <Typography sx={{ fontSize: 15 }} component="div">
-            Practice Time:{assignment.practice_time}
+            Practice Time: {assignment.practice_time}
           </Typography>
           <Typography sx={{ fontSize: 15 }} component="div">
-            Days:{assignment.days}
+            Days: {assignment.days}
           </Typography>
           <Typography sx={{ fontSize: 15 }} component="div">
-            Days Practiced:{assignment.days_practiced}
+            Days Practiced: {assignment.days_practiced}
           </Typography>
         </CardContent>
       </Card>

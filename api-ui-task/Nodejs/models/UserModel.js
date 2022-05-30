@@ -1,9 +1,9 @@
-import { Sequelize } from "sequelize";
-import { db } from "../config/Database.js";
+import { Sequelize } from 'sequelize';
+import { db } from '../config/Database.js';
 
 const { DataTypes } = Sequelize;
 
-export const Assignments = db.define("assignments", {
+export const Assignments = db.define('assignments', {
   title: {
     type: DataTypes.STRING,
   },
@@ -23,11 +23,11 @@ export const Assignments = db.define("assignments", {
     type: DataTypes.STRING,
   },
   createdAt: {
-    field: "createdat",
+    field: 'createdat',
     type: DataTypes.DATE,
   },
   updatedAt: {
-    field: "updatedat",
+    field: 'updatedat',
     type: DataTypes.DATE,
   },
 });

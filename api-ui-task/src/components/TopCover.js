@@ -1,4 +1,4 @@
-import MenuBtn from "./MenuBtn";
+import MenuBtn from './MenuBtn';
 const TopCover = () => {
   return (
     <div className="topCover">

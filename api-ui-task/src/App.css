@@ -19,14 +19,12 @@
 
 .container {
   position: relative;
-  transform: scaleY(0.87763);
+  transform: scale(0.994695, 0.87763);
 }
 .coursePage {
   position: absolute;
-
   width: 375px;
   height: 760px;
-
   left: 0;
   top: 0;
   overflow-y: scroll;
@@ -35,9 +33,9 @@
 
 .addBtn {
   position: absolute;
-  width: 48px;
+  width: 44px;
   height: 48px;
-  left: 317px;
+  left: 321px;
   top: 92px;
   background: #ffffff;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
@@ -68,7 +66,7 @@
   width: 28px;
   height: 0;
   position: absolute;
-  left: 16%;
+  left: 12%;
   top: 45.5%;
   border: 2px solid #000000;
   border-radius: 4px;
@@ -77,14 +75,15 @@
 
 .teacherImage {
   position: absolute;
+  border: 2px hidden #ffffff;
+  background: url('./media/Teacher\ Image.png') no-repeat;
   box-sizing: border-box;
-  width: 84px;
-  height: 84px;
+  width: 80px;
+  height: 88px;
   left: 20px;
   top: 60px;
-  border: 2px solid #ffffff;
-  background: url("Teacher\ Image.png");
   border-radius: 70px;
+  background-size: 80px 90px;
 }
 
 .topCover {
@@ -92,15 +91,14 @@
   height: 100px;
   left: 0;
   top: 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("Frame\ 145319.png");
+  background: url('./media/Frame\ 145319.png');
 }
 
 .menuBtn {
   position: absolute;
   width: 48px;
   height: 48px;
-  left: 317px;
+  left: 318px;
   top: 10px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.32));
 }
@@ -109,7 +107,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 24px;
+  height: 29px;
   width: 28px;
   left: 10px;
   top: 12px;
@@ -124,8 +122,8 @@
 }
 
 .menuVectorLines {
-  width: 28px;
-  height: 3px;
+  width: 29px;
+  height: 5px;
   border: 1px solid #000000;
   border-radius: 4px;
   background: white;
@@ -135,8 +133,8 @@
   box-sizing: border-box;
   width: 335px;
   height: 40px;
-  left: 20px;
-  top: 164px;
+  left: 22px;
+  top: 178px;
   overflow-x: scroll;
   background: #ffffff;
   border: 1px solid #e0e0e0;
@@ -197,9 +195,9 @@
   position: absolute;
   width: 50px;
   height: 20px;
-  left: 40px;
+  left: 39px;
   top: 10px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -210,10 +208,10 @@
 
 .list {
   position: absolute;
-
   width: 335px;
   height: 491px;
   left: 20px;
+  right: 22px;
   top: 228px;
 }
 
@@ -241,10 +239,10 @@
 
 .title1 {
   width: 247px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   text-align: start;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   text-transform: capitalize;
@@ -255,7 +253,7 @@
   width: 247px;
   left: 72px;
   top: 43px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   text-align: start;
   font-weight: 400;
@@ -282,7 +280,7 @@
   top: 81px;
 }
 .textInstructions {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;

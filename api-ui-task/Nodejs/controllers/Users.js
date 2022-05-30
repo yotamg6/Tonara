@@ -1,5 +1,4 @@
-import { db } from "../config/Database.js";
-import { Assignments } from "../models/UserModel.js";
+import { Assignments } from '../models/UserModel.js';
 
 export const AddNewAssignment = async (req, res) => {
   try {
@@ -13,7 +12,7 @@ export const AddNewAssignment = async (req, res) => {
     });
     res.json({ filedata: ret.dataValues });
   } catch (e) {
-    console.log("from uploads", e);
+    console.log('from uploads', e);
   }
 };
 
@@ -22,6 +21,6 @@ export const SelectAllAssignments = async (req, res) => {
     const myAssignments = await Assignments.findAll();
     res.json(myAssignments);
   } catch (e) {
-    console.log("in SelectAllAssignments", e);
+    console.log('in SelectAllAssignments', e);
   }
 };

@@ -21,11 +21,7 @@ const AssignmentList = () => {
     <div className="list">
       {returnedData.length
         ? returnedData.map((assignment, i) => {
-            return (
-              <>
-                <Item assignment={assignment} key={i} />
-              </>
-            );
+            return <Item key={i} assignment={assignment} />;
           })
         : null}
     </div>

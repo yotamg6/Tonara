@@ -24,7 +24,6 @@ const UploadData = ({ formValues }) => {
           days,
           daysPracticed,
         });
-        console.log('response in upload data', data.data.filedata);
         setUploadedData(data.data.filedata);
       } catch (e) {
         console.log(e);
